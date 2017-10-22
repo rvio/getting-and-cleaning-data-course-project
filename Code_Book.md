@@ -1,9 +1,9 @@
 
-###Identifiers
+# Identifiers
     activity_label - The type of activity performed when the corresponding measurements were taken
     subject - The ID of the test subject
 
-###Measurements
+# Measurements
     tBodyAcc-mean()-X	
     tBodyAcc-mean()-Y
     tBodyAcc-mean()-Z
@@ -84,7 +84,7 @@
     fBodyBodyGyroJerkMag-std()
     fBodyBodyGyroJerkMag-meanFreq()
 
-###Activity Labels
+# Activity Labels
 
     WALKING (value 1): subject was walking during the test
     WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
