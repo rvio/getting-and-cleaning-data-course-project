@@ -84,3 +84,4 @@ conso_selected <- select(conso_selected, 'activity_label', 'subject', everything
 summarized_conso <- group_by(conso_selected, activity_label, subject)
 summarized_conso <- summarize_all(summarized_conso, mean)
 write.csv(summarized_conso, file = "step5_data_cleaning_course.csv")
+write.table(summarized_conso, file = "step5_data_cleaning_course.txt", row.name=FALSE)
